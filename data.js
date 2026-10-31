@@ -1,0 +1,11 @@
+const CATS=["Engineering","Design","Marketing","Sales","Operations","Support"];
+const TYPES=["Full-time","Part-time","Contract","Internship"];
+const seed=[
+{id:"s1",title:"Frontend Engineer",company:"Northwind Labs",location:"Remote",category:"Engineering",type:"Full-time",salary:"₹24–36 LPA",desc:"Build fast, accessible interfaces for our analytics product.\n\nYou will work with React and TypeScript, partner closely with design, and own features from idea to release.\n\nWe look for 3+ years of experience and a strong eye for detail.",posted:Date.now()-864e5*1},
+{id:"s2",title:"Product Designer",company:"Papertrail Studio",location:"Bengaluru",category:"Design",type:"Full-time",salary:"₹18–28 LPA",desc:"Shape the look and feel of our mobile apps.\n\nYou will run research, make prototypes, and ship polished interfaces with engineers.",posted:Date.now()-864e5*2},
+{id:"s3",title:"Growth Marketing Manager",company:"Lumen Foods",location:"Delhi",category:"Marketing",type:"Full-time",salary:"₹15–22 LPA",desc:"Own acquisition across paid, email and partnerships.\n\nYou will plan campaigns, test messaging and report on results every week.",posted:Date.now()-864e5*3},
+{id:"s4",title:"Customer Support Specialist",company:"Harbor Pay",location:"Remote",category:"Support",type:"Part-time",salary:"₹30,000 / month",desc:"Help small businesses get paid on time.\n\nYou will answer tickets, document fixes and flag product issues to the team.",posted:Date.now()-864e5*4},
+{id:"s5",title:"Backend Engineer",company:"Northwind Labs",location:"Pune",category:"Engineering",type:"Contract",salary:"₹2,500 / hour",desc:"Design and build services in Go and Postgres.\n\nThis is a 6-month contract with a chance to extend.",posted:Date.now()-864e5*5},
+{id:"s6",title:"Operations Intern",company:"Papertrail Studio",location:"Mumbai",category:"Operations",type:"Internship",salary:"₹20,000 / month",desc:"Support our operations team with scheduling, vendor follow-ups and reporting.\n\nA good fit for final-year students.",posted:Date.now()-864e5*6},
+{id:"s7",title:"Account Executive",company:"Harbor Pay",location:"Delhi",category:"Sales",type:"Full-time",salary:"₹12–18 LPA + commission",desc:"Close deals with growing retailers.\n\nYou will run demos, handle negotiations and work with customer success after the sale.",posted:Date.now()-864e5*8}
+];
